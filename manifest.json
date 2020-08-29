@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "UnMasker",
+    "version": "1.0.0",
+
+    "description": "Removes the mask protection in acloud.guru accounts",
+
+    "icons": {
+        "48": "images/icon_unmasker.png"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["*://*.acloud.guru/*"],
+            "js": ["unmasker.js"]
+        }
+    ]
+}
