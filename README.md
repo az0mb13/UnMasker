@@ -1,6 +1,6 @@
 # UnMasker
 
-A Firefox extention to remove the masked content and protection from acloud.guru in unpaid accounts.
+A Firefox extention to remove the masked content and protection from acloud.guru
 
 ## Installation steps
 * Download the XPI file from `web-ext-artifacts` folder
